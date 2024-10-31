@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Product Page</title>
+</head>
+<body>
+<script>
+    function updateMainImage(src) {
+  document.getElementById('mainImage').src = src;
+}
+
+</script>
+    <div class="product-card">
+        <div class="image-wrapper">
+          <img src="IMG_7750.jpg" alt="Oakley Men's Polarized Sunglasses" class="product-image" id="mainImage">
+        </div>
+        
+        <div class="thumbnail-gallery">
+          <img src="IMG_7751.jpg" alt="Thumbnail 1" class="thumbnail" onclick="updateMainImage('IMG_7751.jpg')">
+          <img src="IMG_7752.jpg" alt="Thumbnail 2" class="thumbnail" onclick="updateMainImage('IMG_7752.jpg')">
+          <img src="IMG_7753.jpg" alt="Thumbnail 3" class="thumbnail" onclick="updateMainImage('IMG_7753.jpg')">
+          <img src="IMG_7754.jpg" alt="Thumbnail 4" class="thumbnail" onclick="updateMainImage('IMG_7754.jpg')">
+          <img src="IMG_7755.jpg" alt="Thumbnail 4" class="thumbnail" onclick="updateMainImage('IMG_7755.jpg')">
+
+        </div>
+      
+        <div class="product-details">
+            <h2 class="product-title">Chic Brown & Beige Sneakers with White Sole – Perfect for Casual Style!</h2>
+            <p class="product-price">US $49.99</p>
+          <p class="product-stock-info">Limited quantity available: 5086 sold</p>
+          
+          <div class="quantity-section">
+            <label for="quantity" class="quantity-label">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1" class="quantity-input">
+          </div>
+      
+          <div class="action-buttons">
+            <a href="Checkoutscn2bhdsbf2H2isbfsicWdsjhdsb812skdbfs72sd.html" class="btn-primary-link">Buy It Now</a>
+
+            <a href="Checkoutscn2bhdsbf2H2isbfsicWdsjhdsb812skdbfs72sd.html" class="btn-primary">Add to Cart</a>
+          </div>
+          
+          <p class="out-of-stock">The item is currently in stock</p>
+        </div>
+      </div>
+ 
+</body>
+</html>
